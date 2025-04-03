@@ -1,0 +1,97 @@
+/* Heo Style - Hài Hước & Cute */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffebcc;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff99cc;
+    padding: 20px;
+    border-bottom: 5px solid #ff6699;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 3px 3px 0px #ff3366;
+}
+
+nav {
+    background-color: #ffcc66;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #663399;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff99cc;
+    color: white;
+    transform: scale(1.1);
+}
+
+.thongtin-heo {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #ff3366;
+}
+
+dd {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #663399;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: rotate(-2deg) scale(1.05);
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff99cc;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-top: 5px solid #ff6699;
+}
